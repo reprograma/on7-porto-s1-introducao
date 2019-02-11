@@ -18,7 +18,7 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 # O que é a linha de comando ?
 
 
-[linha de comando]("./linha-de-comando.jpeg")
+[linha de comando](./linha-de-comando.jpeg)
 
 
 * ls - list (lista todos os arquivos presentes no diretório)
