@@ -15,7 +15,7 @@ Git é um __sistema de controle de versões__ , usado principalmente no desenvol
 GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 
 
-# O que é a linha de comando?
+## Linha de comando 
 
 
 ![linha de comando](https://github.com/natalyapeixoto/git-and-github/blob/master/linha-de-comando.png)
