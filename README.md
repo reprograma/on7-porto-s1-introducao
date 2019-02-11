@@ -1,7 +1,7 @@
 
  # O que é o git?
 
-[logo do git]("./git.jpeg")
+[logo do git](https://github.com/natalyapeixoto/git-and-github/blob/master/git.jpeg)
 
 Git é um __sistema de controle de versões__ , usado principalmente no desenvolvimento de software.
  O Git é um software livre, foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux.
@@ -10,7 +10,7 @@ Git é um __sistema de controle de versões__ , usado principalmente no desenvol
 
 # O que é o GitHub?
 
-[logo do github]("./github.jpeg")
+[logo do github](https://github.com/natalyapeixoto/git-and-github/blob/master/github.jpg)
 
 GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 
@@ -18,10 +18,11 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 # O que é a linha de comando ?
 
 
-[linha de comando](./linha-de-comando.jpeg)
+[linha de comando](https://github.com/natalyapeixoto/git-and-github/blob/master/linha-de-comando.png)
 
 
-* ls - list (lista todos os arquivos presentes no diretório)
+* ls - list (lista todos os arquivos presentes no diretório MAC/LINUX)
+* dir - list(windows)
 * pwd - Present working directory 
 * cd - change directory 
 * cd ~ - volta para a raiz
@@ -94,7 +95,7 @@ serve para baixar, na sua máquina, um projeto que está hospedado no github.
 
 cria uma cópia de um repositório qualquer no seu github
 
-[fork]("./fork.png")
+[fork](https://github.com/natalyapeixoto/git-and-github/blob/master/fork.png)
 
 #### trabalhando com o fork:
 
@@ -119,7 +120,7 @@ upstream        https://github.com/denisecaze/labcar.git (push)
 
 * Feito isso, vamos no nosso github, no repositório forkado, vamos ver a informação que está em amarelo na foto abaixo:
 
-[fork]("./forked.png")
+[fork](https://github.com/natalyapeixoto/git-and-github/blob/master/forked.png)
 
 'This branch is 1 commit ahead of nome-do-usuário:branch'.
 e então, vamos clicar em pull request. 
