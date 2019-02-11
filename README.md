@@ -21,6 +21,7 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 ![linha de comando](https://github.com/natalyapeixoto/git-and-github/blob/master/linha-de-comando.png)
 
 
+### Comandos mais usados:
 * ls - list (lista todos os arquivos presentes no diretório MAC/LINUX)
 * dir - list(windows)
 * pwd - Present working directory 
@@ -101,11 +102,11 @@ cria uma cópia de um repositório qualquer no seu github
 
 * No repositório 'forkado' no seu github pegue a url e dê um clone na sua máquina
 * trabalhe à vontade 
-* Terminou? git add ., git commit -m''. 
+* Terminou? ``git add .`` , ``git commit -m''`` . 
 * Mas antes de darmos o push, algumas configurações são necessárias. 
 * ````git remote -v```` para vermos para onde estamos enviando e de onde estamos pegando arquivo. 
 * Note que só estamos enviando e recebendo do nosso próprio repositório. 
-* Caso o respositório raiz tenha sofrido alterações, não vamos conseguir pega-las. Precisamos mudar isso. 
+* Caso o respositório raiz tenha sofrido alterações, não vamos conseguir pegá-las. Precisamos mudar isso. 
 * ````git remote add upstream url-do-repositorio-que-voce-forkou````
 * ````git remote -v```` novamente. Agora podemos ver algo como: 
 
@@ -115,9 +116,9 @@ origin  https://github.com/natalyapeixoto/labcar.git (push)
 upstream        https://github.com/denisecaze/labcar.git (fetch)
 upstream        https://github.com/denisecaze/labcar.git (push)
 ```
-* ainda antes do push, vamos ver se tem alguma mudança que precisamos pegar. 
+* Ainda antes do push, vamos ver se tem alguma mudança que precisamos pegar. 
 * ````git pull upstream master```` 
-* agora damos o ````git push origin master````
+* Agora damos o ````git push origin master````
 
 * Feito isso, vamos no nosso github, no repositório forkado, vamos ver a informação que está em amarelo na foto abaixo:
 
@@ -132,9 +133,21 @@ No Pull request, você está simplesmente solicitando ao responsável do reposit
 Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da sua solicitação e etc. 
 
 
+## Branch 
+
+Branch significa, galho, ramificação. 
+![branch]()
+
+## Git Merge
+
+Merge acontece quando pegamos duas branchs diferentes e juntamos o código. 
+Muitas vezes, existem partes diferentes nesses arquivos, nesse momento 
+existe um conflito (o terror da geral), quando ocorrer um desses, nada a temer, 
+há uma breve conversa e decide-se qual das versões será mantida.
+
 ## Readme.md MARKDOWN
 
-arquivo essencial para todo repositório no github. 
+Arquivo essencial para todo repositório no github. 
 onde explicamos o projeto e damos algumas instruções, caso necessário. 
 
 
