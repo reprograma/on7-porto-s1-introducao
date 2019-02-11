@@ -39,9 +39,9 @@ Esse comando nos dirá se o git está instalado, se sim, qual versão que possu�
 
 tutorial: https://woliveiras.com.br/posts/instalando-o-git-windows/
 
-git para mac: https://git-scm.com/download/mac
-git para windows: https://gitforwindows.org/
-git para plataformas Linux/Debian, como o Ubuntu: digite na linha de comando ````sudo apt-get install git ```` 
+* git para mac: https://git-scm.com/download/mac
+* git para windows: https://gitforwindows.org/
+* git para plataformas Linux/Debian, como o Ubuntu: digite na linha de comando ````sudo apt-get install git ```` 
 
 
 ### Git configuração
