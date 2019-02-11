@@ -90,6 +90,17 @@ serve para baixar, na sua máquina, um projeto que está hospedado no github.
 * Na sua máquina abra a linha de comando e vá até a posta onde deseja colocar o projeto
 * rode o comando: ```` git clone url-do-repositorio ```` 
 
+## Branch 
+
+Branch significa, galho, ramificação. 
+![branch](https://github.com/natalyapeixoto/git-and-github/blob/master/branch.png)
+
+## Git Merge
+
+Merge acontece quando pegamos duas branchs diferentes e juntamos o código. 
+Muitas vezes, existem partes diferentes nesses arquivos, nesse momento 
+existe um conflito (o terror da geral), quando ocorrer um desses, nada a temer, 
+há uma breve conversa e decide-se qual das versões será mantida.
 
 
 ## Fork 
@@ -133,17 +144,6 @@ No Pull request, você está simplesmente solicitando ao responsável do reposit
 Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da sua solicitação e etc. 
 
 
-## Branch 
-
-Branch significa, galho, ramificação. 
-![branch]()
-
-## Git Merge
-
-Merge acontece quando pegamos duas branchs diferentes e juntamos o código. 
-Muitas vezes, existem partes diferentes nesses arquivos, nesse momento 
-existe um conflito (o terror da geral), quando ocorrer um desses, nada a temer, 
-há uma breve conversa e decide-se qual das versões será mantida.
 
 ## Readme.md MARKDOWN
 
