@@ -15,7 +15,7 @@ Git é um __sistema de controle de versões__ , usado principalmente no desenvol
 GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 
 
-# O que é a linha de comando ?
+# O que é a linha de comando?
 
 
 ![linha de comando](https://github.com/natalyapeixoto/git-and-github/blob/master/linha-de-comando.png)
@@ -32,7 +32,7 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 * mkdir nome-da-pasta - para criar uma pasta
 
 
-# Instalação do Git 
+## Instalação do Git 
 
 O git já vem instalado na maioria dos computadores Mac, se for o seu, apenas digite na linha de comando: git --version
 Esse comando nos dirá se o git está instalado, se sim, qual versão que possuímos. 
@@ -53,15 +53,15 @@ git config --global user.email “natalya_peixoto@hotmail.com”
 
 Para remover usuário apenas adicione --unset-all entre --global e user.name/user.email
 
-# Criar conta e perfil no GitHub
+## Criar conta e perfil no GitHub
 
-link para 
+[link GitHub](https://github.com/)
 
 Lembre-se que o github é onde as empresas vão ver seu trabalho. 
 Então mantenha tudo organizado e use bom senso para seu nome de usuário.
 
 
-# Subindo projeto local para o GitHub
+## Subindo projeto local para o GitHub
 
 * Criar novo repositório no seu github e dar nome a ele. 
 * no sua máquina, pela linha de comando, vá até a pasta do projeto. 
@@ -79,7 +79,7 @@ Então mantenha tudo organizado e use bom senso para seu nome de usuário.
 * *commited*  comit foi feito
 
 
-# Git Clone
+## Git Clone
 
 serve para baixar, na sua máquina, um projeto que está hospedado no github.
 
@@ -88,10 +88,10 @@ serve para baixar, na sua máquina, um projeto que está hospedado no github.
 * copiar url 
 * Na sua máquina abra a linha de comando e vá até a posta onde deseja colocar o projeto
 * rode o comando: ```` git clone url-do-repositorio ```` 
-:+1 
 
 
-# Fork 
+
+## Fork 
 
 cria uma cópia de um repositório qualquer no seu github
 
@@ -109,11 +109,12 @@ cria uma cópia de um repositório qualquer no seu github
 * ````git remote add upstream url-do-repositorio-que-voce-forkou````
 * ````git remote -v```` novamente. Agora podemos ver algo como: 
 
+```
 origin  https://github.com/natalyapeixoto/labcar.git (fetch)
 origin  https://github.com/natalyapeixoto/labcar.git (push)
 upstream        https://github.com/denisecaze/labcar.git (fetch)
 upstream        https://github.com/denisecaze/labcar.git (push)
-
+```
 * ainda antes do push, vamos ver se tem alguma mudança que precisamos pegar. 
 * ````git pull upstream master```` 
 * agora damos o ````git push origin master````
@@ -131,7 +132,7 @@ No Pull request, você está simplesmente solicitando ao responsável do reposit
 Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da sua solicitação e etc. 
 
 
-# Readme.md MARKDOWN
+## Readme.md MARKDOWN
 
 arquivo essencial para todo repositório no github. 
 onde explicamos o projeto e damos algumas instruções, caso necessário. 
