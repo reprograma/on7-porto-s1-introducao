@@ -103,18 +103,9 @@ Branch significa, galho, ramificação.
 ![branch](https://github.com/natalyapeixoto/git-and-github/blob/master/branch.png)
 
 
-````
-git checkout -b nome-da-branch
-```` 
-cria uma nova branch e entra nela
-```` 
-git branch 
-````
-mostra as branchs que existem no projeto/repositório, destacando a branch atual
-````
-git checkout nome-da-branch
-```` 
-para mudar de branch
+````git checkout -b nome-da-branch```` cria uma nova branch e entra nela
+```` git branch ```` mostra as branchs que existem no projeto/repositório, destacando a branch atual
+````git checkout nome-da-branch```` para mudar de branch
 
 ## Pull request (a famosa PR)
 
