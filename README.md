@@ -106,15 +106,15 @@ Branch significa, galho, ramificação.
 ````
 git checkout -b nome-da-branch
 ```` 
-- 'cria uma nova branch e entra nela'
+cria uma nova branch e entra nela
 ```` 
 git branch 
 ````
-- 'mostra as branchs que existem no projeto/repositório, destacando a branch atual' 
+mostra as branchs que existem no projeto/repositório, destacando a branch atual
 ````
 git checkout nome-da-branch
 ```` 
-- para mudar de branch. 
+para mudar de branch
 
 ## Pull request (a famosa PR)
 
