@@ -104,15 +104,21 @@ Branch significa, galho, ramificação.
 
 
 ````
-git checkout -b nome-da-branch - 'cria uma nova branch e entra nela' 
-git branch - 'mostra as branchs que existem no projeto/repositório, destacando a branch atual' 
-git checkout nome-da-branch - para mudar de branch. 
-
+git checkout -b nome-da-branch
+```` 
+- 'cria uma nova branch e entra nela'
+```` 
+git branch 
 ````
+- 'mostra as branchs que existem no projeto/repositório, destacando a branch atual' 
+````
+git checkout nome-da-branch
+```` 
+- para mudar de branch. 
 
-## Pull request 
+## Pull request (a famosa PR)
 
-No Pull request, você está simplesmente solicitando ao responsável do repositório permissão para fazer alterações nele. Na pull request, precisamos escrever o que fizemos. 
+Na Pull request, você está simplesmente solicitando ao responsável(ou responsáveis) do repositório aprovação para que as alterações que você fez sejam integradas. Na pull request, precisamos escrever o que fizemos. 
 Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da sua solicitação e etc. 
 
 ## Git Merge
