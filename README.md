@@ -1,5 +1,5 @@
 
- # O que é o git?
+# O que é o git?
 
 ![logo do git](https://github.com/natalyapeixoto/git-and-github/blob/master/git.jpeg)
 
@@ -12,7 +12,7 @@ Git é um __sistema de controle de versões__ , usado principalmente no desenvol
 
 ![logo do github](https://github.com/natalyapeixoto/git-and-github/blob/master/github.jpg)
 
-GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores, utilitários ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
+GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 
 
 ## Linha de comando 
@@ -35,7 +35,7 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 
 ## Instalação do Git 
 
-O git já vem instalado na maioria dos computadores Mac, se for o seu, apenas digite na linha de comando: git --version
+O git já vem instalado na maioria dos computadores Mac e Linux, se for o seu, apenas digite na linha de comando: git --version
 Esse comando nos dirá se o git está instalado, se sim, qual versão que possuímos. 
 
 tutorial: https://woliveiras.com.br/posts/instalando-o-git-windows/
@@ -47,12 +47,19 @@ tutorial: https://woliveiras.com.br/posts/instalando-o-git-windows/
 
 ### Git configuração
 
+Para adicionar usuário:
+
 ```
 git config --global user.name "Natalya Peixoto"
 git config --global user.email “natalya_peixoto@hotmail.com” 
 ```
 
-Para remover usuário apenas adicione --unset-all entre --global e user.name/user.email
+Para remover usuário:
+
+```
+git config --global --unset user.name "Natalya Peixoto"
+git config --global --unset user.email “natalya_peixoto@hotmail.com” 
+```
 
 ## Criar conta e perfil no GitHub
 
@@ -77,7 +84,7 @@ Então mantenha tudo organizado e use bom senso para seu nome de usuário.
 
 * *untracked files* nao deu instrução ao git do que fazer com or arquivo
 * *changes to be committed* adicionou, mas não deu o commit
-* *commited*  comit foi feito
+* *commited*  commit foi feito
 
 
 ## Git Clone
@@ -95,6 +102,19 @@ serve para baixar, na sua máquina, um projeto que está hospedado no github.
 Branch significa, galho, ramificação. 
 ![branch](https://github.com/natalyapeixoto/git-and-github/blob/master/branch.png)
 
+
+````
+git checkout -b nome-da-branch - 'cria uma nova branch e entra nela' 
+git branch - 'mostra as branchs que existem no projeto/repositório, destacando a branch atual' 
+git checkout nome-da-branch - para mudar de branch. 
+
+````
+
+## Pull request 
+
+No Pull request, você está simplesmente solicitando ao responsável do repositório para fazer alterações nele. Na pull request, precisamos escrever o que fizemos. 
+Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da sua solicitação e etc. 
+
 ## Git Merge
 
 Merge acontece quando pegamos duas branchs diferentes e juntamos o código. 
@@ -103,9 +123,20 @@ existe um conflito (o terror da geral), quando ocorrer um desses, nada a temer,
 há uma breve conversa e decide-se qual das versões será mantida.
 
 
+## Readme.md MARKDOWN
+
+Arquivo essencial para todo repositório no github. 
+onde explicamos o projeto e damos algumas instruções, caso necessário. 
+
+
+https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+
+
+
+
 ## Fork 
 
-cria uma cópia de um repositório qualquer no seu github
+cria uma cópia de um repositório qualquer no seu github.
 
 ![fork](https://github.com/natalyapeixoto/git-and-github/blob/master/fork.png)
 
@@ -138,19 +169,5 @@ upstream        https://github.com/denisecaze/labcar.git (push)
 'This branch is 1 commit ahead of nome-do-usuário:branch'.
 e então, vamos clicar em pull request. 
 
-## Pull request 
-
-No Pull request, você está simplesmente solicitando ao responsável do repositório para fazer alterações nele. Na pull request, precisamos escrever o que fizemos. 
-Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da sua solicitação e etc. 
-
-
-
-## Readme.md MARKDOWN
-
-Arquivo essencial para todo repositório no github. 
-onde explicamos o projeto e damos algumas instruções, caso necessário. 
-
-
-https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 
