@@ -94,7 +94,7 @@ serve para baixar, na sua máquina, um projeto que está hospedado no github.
 * Acesse o repositório do projeto que quer baixar 
 * clicar no botão ```` clone or download ```` 
 * copiar url 
-* Na sua máquina abra a linha de comando e vá até a posta onde deseja colocar o projeto
+* Na sua máquina abra a linha de comando e vá até a pasta onde deseja colocar o projeto
 * rode o comando: ```` git clone url-do-repositorio ```` 
 
 ## Branch 
@@ -112,7 +112,7 @@ git checkout nome-da-branch - para mudar de branch.
 
 ## Pull request 
 
-No Pull request, você está simplesmente solicitando ao responsável do repositório para fazer alterações nele. Na pull request, precisamos escrever o que fizemos. 
+No Pull request, você está simplesmente solicitando ao responsável do repositório permissão para fazer alterações nele. Na pull request, precisamos escrever o que fizemos. 
 Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da sua solicitação e etc. 
 
 ## Git Merge
