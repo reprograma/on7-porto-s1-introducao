@@ -36,7 +36,7 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 ## Instalação do Git 
 
 O git já vem instalado na maioria dos computadores Mac e Linux, se for o seu, apenas digite na linha de comando: git --version
-Esse comando nos dirá se o git está instalado, se sim, qual versão que possuímos. 
+Caso esteja instalado, esse comando mostrará a versão do git.
 
 tutorial: https://woliveiras.com.br/posts/instalando-o-git-windows/
 
@@ -66,7 +66,7 @@ git config --global --unset user.email “natalya_peixoto@hotmail.com”
 [link GitHub](https://github.com/)
 
 Lembre-se que o github é onde as empresas vão ver seu trabalho. 
-Então mantenha tudo organizado e use bom senso para seu nome de usuário.
+Então mantenha tudo organizado e use bom senso na hora de escolher seu nome de usuário.
 
 
 ## Subindo projeto local para o GitHub
@@ -107,6 +107,13 @@ Branch significa, galho, ramificação.
 * ```` git branch ```` mostra as branchs que existem no projeto/repositório, destacando a branch atual
 * ````git checkout nome-da-branch```` para mudar de branch
 
+
+#### git pull 
+
+como diz o nome, para __puxar__ atualizações de uma branch remota para a branch atual(local). 
+```` git pull master```` atualiza a branch que você está trabalhando com a master. 
+
+
 ## Pull request (a famosa PR)
 
 Na Pull request, você está simplesmente solicitando ao responsável(ou responsáveis) do repositório aprovação para que as alterações que você fez sejam integradas. Na pull request, precisamos escrever o que fizemos. 
@@ -127,9 +134,6 @@ onde explicamos o projeto e damos algumas instruções, caso necessário.
 
 
 https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
-
-
-
 
 ## Fork 
 
@@ -167,4 +171,12 @@ upstream        https://github.com/denisecaze/labcar.git (push)
 e então, vamos clicar em pull request. 
 
 
+
+### links úteis:
+
+* https://medium.com/reprogramabr/git-e-github-por-onde-come%C3%A7ar-ca88a783c223 -> Medium Reprograma. Escrito por Thaylla <3 
+
+* https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o -> Documentação oficial do git em portuguêS. 
+
+* https://rogerdudler.github.io/git-guide/index.pt_BR.html -> git - guia prático 
 
