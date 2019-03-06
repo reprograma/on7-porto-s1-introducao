@@ -23,8 +23,9 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 
 ### Comandos mais usados:
 * ls - list (lista todos os arquivos presentes no diretório MAC/LINUX)
-* dir - list(windows)
-* pwd - Present working directory 
+* dir - list(windows) 
+* dir /b - mostra lista de maneira simplificada
+* pwd - Present working directory (MAC/LINUX)
 * cd - change directory 
 * cd ~ - volta para a raiz
 * cd .. - volta uma pasta 
@@ -73,7 +74,7 @@ Então mantenha tudo organizado e use bom senso na hora de escolher seu nome de 
 
 * Criar novo repositório no seu github e dar nome a ele. 
 * no sua máquina, pela linha de comando, vá até a pasta do projeto. 
-* dentro da pasta do projeto rode o comando: ````git init```` (pasta git oculta é criada. Par ver podemos digitar ls -a )
+* dentro da pasta do projeto rode o comando: ````git init```` (pasta git oculta é criada)
 * ````git add .```` para adicionar todos os arquivos que estão na sua pasta de uma vez, caso queria adicionar apenas um digite ````git add caminho-do-arquivo````
 * ````git commit -m"mensagem para explicar o que voce fez no código"```` 
 * ````git remote add origin url-que-voces-copiaram-do-github````
@@ -100,6 +101,7 @@ serve para baixar, na sua máquina, um projeto que está hospedado no github.
 ## Branch 
 
 Branch significa, galho, ramificação. 
+Usando branches podemos trabalhar paralelamente nos projetos sem alterar a versão principal(master).
 ![branch](https://github.com/natalyapeixoto/git-and-github/blob/master/branch.png)
 
 
@@ -116,22 +118,21 @@ como diz o nome, para __puxar__ atualizações de uma branch remota para a branc
 
 ## Pull request (a famosa PR)
 
-Na Pull request, você está simplesmente solicitando ao responsável(ou responsáveis) do repositório aprovação para que as alterações que você fez sejam integradas. Na pull request, precisamos escrever o que fizemos. 
+Na Pull request, você está simplesmente solicitando ao responsável(ou responsáveis) do repositório aprovação para que as alterações que você fez sejam integradas. 
+Na pull request, precisamos escrever o que fizemos. 
 Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da sua solicitação e etc. 
 
 ## Git Merge
 
 Merge acontece quando pegamos duas branchs diferentes e juntamos o código. 
 Muitas vezes, existem partes diferentes nesses arquivos, nesse momento 
-existe um conflito (o terror da geral), quando ocorrer um desses, nada a temer, 
-há uma breve conversa e decide-se qual das versões será mantida.
+existe um conflito que deve ser resolvido.
 
 
 ## Readme.md MARKDOWN
 
 Arquivo essencial para todo repositório no github. 
 onde explicamos o projeto e damos algumas instruções, caso necessário. 
-
 
 https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
@@ -159,6 +160,9 @@ origin  https://github.com/natalyapeixoto/labcar.git (push)
 upstream        https://github.com/denisecaze/labcar.git (fetch)
 upstream        https://github.com/denisecaze/labcar.git (push)
 ```
+- o 'upstream' se refere ao projeto original que foi forkado. 
+- já o 'origin' é o seu repositório. 
+
 * Ainda antes do push, vamos ver se tem alguma mudança que precisamos pegar. 
 * ````git pull upstream master```` 
 * Agora damos o ````git push origin master````
@@ -176,7 +180,7 @@ e então, vamos clicar em pull request.
 
 * https://medium.com/reprogramabr/git-e-github-por-onde-come%C3%A7ar-ca88a783c223 -> Medium Reprograma. Escrito por Thaylla <3 
 
-* https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o -> Documentação oficial do git em portuguêS. 
+* https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o -> Documentação oficial do git em português. 
 
 * https://rogerdudler.github.io/git-guide/index.pt_BR.html -> git - guia prático 
 

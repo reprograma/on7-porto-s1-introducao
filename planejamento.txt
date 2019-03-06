@@ -1,5 +1,5 @@
 1 -> apresentação
-         eu me apresento e peço para elas se apresentarem(ao menos os nomes e do onde são)
+         eu me apresento e peço para elas se apresentarem(ao menos os nomes e de onde são)
 
 2 -> Conceitos/história git, github e linha de comando
          checar versão, instalação(caso necessária), conta no github 
@@ -31,6 +31,7 @@ exercício:
 - subir projetos já feitos no github
 - criar link no github pages ou netlify
 - colocar este link JUNTAMENTE com o link do repositório no projeto aprendendo-git-e-github
+
 - no projeto aprendendo-git-e-github
         clonar 
         criar branch com seu nome
