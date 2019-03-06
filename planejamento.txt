@@ -1,5 +1,5 @@
 1 -> apresentação
-         eu me apresento e peço para elas se apresentarem(ao menos os nomes e de onde são)
+         eu me apresento e peço para elas se apresentarem(de onde são)
 
 2 -> Conceitos/história git, github e linha de comando
          checar versão, instalação(caso necessária), conta no github 
@@ -27,6 +27,8 @@ almoço
 extra(caso dê tempo): Fork -> conceito, exemplo. 
 
 
+
+http://dontpad.com/natalya-reprograma
 exercício:
 - subir projetos já feitos no github
 - criar link no github pages ou netlify
