@@ -1,8 +1,20 @@
-1 -> apresentação
-         eu me apresento e peço para elas se apresentarem(de onde são)
+Planning da aula Git e Github 
 
-2 -> Conceitos/história git, github e linha de comando
-         checar versão, instalação(caso necessária), conta no github 
+23/03 - das 09h as 17h 
+
+Objetivo - > Entender o que é e pra que usamos git, github e linha de comando. 
+             Instalação e conta no github. 
+             Entender comandos básicos do git, criar respositório no github, 
+             subir repositório local, clonar repositório remoto, 
+             Entender git pull e pull request. 
+
+-------------------------
+
+1 -> apresentação 
+         chamada e só pedir pras meninas dizerem de onde são. Explicar objetivo da aula. 
+
+2 -> Conceitos/história git, github e linha de comando 
+         checar versão, fazer instalação(caso necessária), brincar um pouco na linha de comando, conta no github 
 
 3 -> Subir projeto local(apenas com o readme.md) no github. 
          entender comandos: git init, git add . , git status, git commit -m'',git remote add origin, git push. 
@@ -10,7 +22,7 @@
 
 almoço
 
-4 -> git clone
+4 -> git clone 
         clonar repositório remoto(meu)
         add alunas como contribuidoras do projeto           
 
@@ -23,6 +35,8 @@ almoço
 7 -> pull request 
         explicar conceito e deixar elas fazerem pr. 
 
+8 -> final - explicar exercício
+
 
 extra(caso dê tempo): Fork -> conceito, exemplo. 
 
@@ -32,7 +46,7 @@ http://dontpad.com/natalya-reprograma
 exercício:
 - subir projetos já feitos no github
 - criar link no github pages ou netlify
-- colocar este link JUNTAMENTE com o link do repositório no projeto aprendendo-git-e-github
+- colocar este link JUNTAMENTE com o link do repositório do github no projeto aprendendo-git-e-github
 
 - no projeto aprendendo-git-e-github
         clonar 

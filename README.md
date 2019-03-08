@@ -23,7 +23,7 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 
 ### Comandos mais usados:
 * ls - list (lista todos os arquivos presentes no diretório MAC/LINUX)
-* dir - list(windows) 
+* dir - list(Windows) 
 * dir /b - mostra lista de maneira simplificada
 * pwd - Present working directory (MAC/LINUX)
 * cd - change directory 
@@ -32,6 +32,8 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 * cd nome-da-pasta - para entrar em uma pasta 
 * code . - abre o visual studio code na pasta local. 
 * mkdir nome-da-pasta - para criar uma pasta
+* history - mostra histórico de comandos (LINUX)
+* f7 - history no Windows
 
 
 ## Instalação do Git 
@@ -183,4 +185,6 @@ e então, vamos clicar em pull request.
 * https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o -> Documentação oficial do git em português. 
 
 * https://rogerdudler.github.io/git-guide/index.pt_BR.html -> git - guia prático 
+
+* https://dillinger.io/ -> Markdown preview (ajudinha para fazer o README.md)
 
