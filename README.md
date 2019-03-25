@@ -115,7 +115,7 @@ Usando branches podemos trabalhar paralelamente nos projetos sem alterar a vers�
 #### git pull 
 
 como diz o nome, para __puxar__ atualizações de uma branch remota para a branch atual(local). 
-```` git pull master```` atualiza a branch que você está trabalhando com a master. 
+```` git pull origin master```` atualiza a branch que você está trabalhando com a master. 
 
 
 ## Pull request (a famosa PR)
