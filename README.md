@@ -191,7 +191,8 @@ Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da 
 Arquivo essencial para todo repositório no github.
 onde explicamos o projeto e damos algumas instruções, caso necessário.
 
-https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+* https://dillinger.io/
+* https://guides.github.com/pdfs/ markdown-cheatsheet-online.pdf
 
 
 ### links úteis:
@@ -201,5 +202,3 @@ https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 * https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o -> Documentação oficial do git em português.
 
 * https://rogerdudler.github.io/git-guide/index.pt_BR.html -> git - guia prático
-
-* https://dillinger.io/ -> Markdown preview (ajudinha para fazer o README.md)
