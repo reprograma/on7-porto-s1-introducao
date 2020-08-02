@@ -2,7 +2,7 @@
 
 # Front-end
 
-![frontend](frontend.png)
+![frontend](frontend.jpg)
 
 Podemos classificar como a parte visual de um site, aquilo que conseguimos interagir. Quem trabalha com Front End é responsável por desenvolver por meio de código uma interface gráfica, normalmente com as tecnologias base da Web (HTML, CSS e JavaScript).
 
@@ -11,7 +11,7 @@ O designer vai desenhar a tela, com Photoshop ou algum software do tipo, e a pes
 O mundo do front-end possui diversas tecnologias, frameworks e bibliotecas. E está sempre evoluindo.
 
 # Mobile
-![mobile](mobile.png)
+![mobile](mobile.jpeg)
 Desenvolvimentos de applicativos.
 
 As tecnologias que envolvem os aplicativos mobile são inicialmente diferentes das que citamos para a Web sendo elas para android: Java, Kotlin; E para iOS: Swift e Objective C.
@@ -30,7 +30,7 @@ O Back End trabalha em boa partes dos casos fazendo a ponte entre os dados que v
 Tudo isso pode ser feito com uma série de linguagens diferentes como: Python, PHP, Ruby, Java, Kotlin, Clojure, C#, JavaScript (Node.js) entre diversas outras.
 
 # Banco de Dados
-![banco](banco.png)
+![banco](banco.jpg)
 O banco de dados é a organização e armazenagem de informações sobre um domínio específico. De forma mais simples, é o agrupamento de dados que tratam do mesmo assunto, e que precisam ser armazenados para segurança ou conferência futura.
 
 # O fluxo:
