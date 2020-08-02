@@ -195,7 +195,7 @@ onde explicamos o projeto e damos algumas instruções, caso necessário.
 * https://guides.github.com/pdfs/ markdown-cheatsheet-online.pdf
 
 
-### links úteis:
+# links úteis:
 
 * https://medium.com/reprogramabr/git-e-github-por-onde-come%C3%A7ar-ca88a783c223 -> Medium Reprograma. Escrito por Thaylla <3
 
