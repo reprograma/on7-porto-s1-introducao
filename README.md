@@ -11,7 +11,8 @@ O designer vai desenhar a tela, com Photoshop ou algum software do tipo, e a pes
 O mundo do front-end possui diversas tecnologias, frameworks e bibliotecas. E está sempre evoluindo.
 
 # Mobile
-![mobile](mobile.jpeg)
+![mobile](./images/mobile.jpeg)
+
 Desenvolvimentos de applicativos.
 
 As tecnologias que envolvem os aplicativos mobile são inicialmente diferentes das que citamos para a Web sendo elas para android: Java, Kotlin; E para iOS: Swift e Objective C.
@@ -21,7 +22,7 @@ O que pode gerar uma intersecção do Front End e do mundo Mobile é React Nativ
 
 # Back-end
 
-![backend](backend.png)
+![backend](./images/backend.png)
 
 Back End, como o próprio nome sugere, vem da ideia do que tem por trás de uma aplicação. Pode ficar meio abstrato em um primeiro momento, mas pense que para conseguir usar o Facebook no dia a dia, os dados do seu perfil, amigos e publicações precisam estar salvos em algum lugar, sendo esse lugar um banco de dados.
 
@@ -30,16 +31,17 @@ O Back End trabalha em boa partes dos casos fazendo a ponte entre os dados que v
 Tudo isso pode ser feito com uma série de linguagens diferentes como: Python, PHP, Ruby, Java, Kotlin, Clojure, C#, JavaScript (Node.js) entre diversas outras.
 
 # Banco de Dados
-![banco](banco.jpg)
+![banco](./images/banco.jpg)
+
 O banco de dados é a organização e armazenagem de informações sobre um domínio específico. De forma mais simples, é o agrupamento de dados que tratam do mesmo assunto, e que precisam ser armazenados para segurança ou conferência futura.
 
 # O fluxo:
-![fluxo](fluxo.png)
+![fluxo](./images/fluxo.png)
 
 
 # O que é o git?
 
-![logo do git](https://github.com/natalyapeixoto/git-and-github/blob/master/git.jpeg)
+![logo do git](./images/git.jpeg)
 
 Git é um __sistema de controle de versões__ , usado principalmente no desenvolvimento de software.
  O Git é um software livre, foi inicialmente projetado e desenvolvido por Linus Torvalds para o desenvolvimento do kernel Linux.
@@ -48,7 +50,7 @@ Git é um __sistema de controle de versões__ , usado principalmente no desenvol
 
 # O que é o GitHub?
 
-![logo do github](https://github.com/natalyapeixoto/git-and-github/blob/master/github.jpg)
+![logo do github](./images/github.jpg)
 
 GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git. Ele permite que programadores ou qualquer usuário cadastrado na plataforma contribuam em projetos privados e/ou Open Source de qualquer lugar do mundo.
 
@@ -56,7 +58,7 @@ GitHub é uma plataforma de hospedagem de código-fonte com controle de versão 
 ## Linha de comando
 
 
-![linha de comando](https://github.com/natalyapeixoto/git-and-github/blob/master/linha-de-comando.png)
+![linha de comando](./images/linha-de-comando.png)
 
 
 ### Comandos mais usados:
@@ -147,7 +149,7 @@ serve para baixar, na sua máquina, um projeto que está hospedado no github.
 
 Branch significa, galho, ramificação.
 Usando branches podemos trabalhar paralelamente nos projetos sem alterar a versão principal(master).
-![branch](https://github.com/natalyapeixoto/git-and-github/blob/master/branch.png)
+![branch](./images/branch.png)
 
 
 * ````git checkout -b nome-da-branch```` cria uma nova branch e entra nela
