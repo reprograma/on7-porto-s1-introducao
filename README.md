@@ -1,6 +1,9 @@
 # Conceitos gerais
 
 # Front-end
+
+![frontend](frontend.png)
+
 Podemos classificar como a parte visual de um site, aquilo que conseguimos interagir. Quem trabalha com Front End é responsável por desenvolver por meio de código uma interface gráfica, normalmente com as tecnologias base da Web (HTML, CSS e JavaScript).
 
 O designer vai desenhar a tela, com Photoshop ou algum software do tipo, e a pessoa front-end vai aplicar atraves de código (HTML, CSS e JavaScript) o desenho da tela que o designer fez, além disso no front-end também tem muita lógica de programação, componentes que precisam guardar estados e responder a eles de maneiras diferentes.
@@ -8,6 +11,7 @@ O designer vai desenhar a tela, com Photoshop ou algum software do tipo, e a pes
 O mundo do front-end possui diversas tecnologias, frameworks e bibliotecas. E está sempre evoluindo.
 
 # Mobile
+![mobile](mobile.png)
 Desenvolvimentos de applicativos.
 
 As tecnologias que envolvem os aplicativos mobile são inicialmente diferentes das que citamos para a Web sendo elas para android: Java, Kotlin; E para iOS: Swift e Objective C.
@@ -16,6 +20,9 @@ O que pode gerar uma intersecção do Front End e do mundo Mobile é React Nativ
 
 
 # Back-end
+
+![backend](backend.png)
+
 Back End, como o próprio nome sugere, vem da ideia do que tem por trás de uma aplicação. Pode ficar meio abstrato em um primeiro momento, mas pense que para conseguir usar o Facebook no dia a dia, os dados do seu perfil, amigos e publicações precisam estar salvos em algum lugar, sendo esse lugar um banco de dados.
 
 O Back End trabalha em boa partes dos casos fazendo a ponte entre os dados que vem do navegador (front-end) rumo ao banco de dados e vice-versa, sempre aplicando as devidas regras de negócio, validações e garantias em um ambiente onde o usuário final não tenha acesso e possa manipular algo.
@@ -23,9 +30,10 @@ O Back End trabalha em boa partes dos casos fazendo a ponte entre os dados que v
 Tudo isso pode ser feito com uma série de linguagens diferentes como: Python, PHP, Ruby, Java, Kotlin, Clojure, C#, JavaScript (Node.js) entre diversas outras.
 
 # Banco de Dados
+![banco](banco.png)
 O banco de dados é a organização e armazenagem de informações sobre um domínio específico. De forma mais simples, é o agrupamento de dados que tratam do mesmo assunto, e que precisam ser armazenados para segurança ou conferência futura.
 
-O fluxo:
+# O fluxo:
 ![fluxo](fluxo.png)
 
 
