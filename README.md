@@ -192,7 +192,8 @@ Arquivo essencial para todo repositório no github.
 onde explicamos o projeto e damos algumas instruções, caso necessário.
 
 * https://dillinger.io/
-* https://guides.github.com/pdfs/ markdown-cheatsheet-online.pdf
+
+* https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 
 # links úteis:
