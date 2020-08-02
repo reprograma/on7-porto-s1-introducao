@@ -11,6 +11,7 @@ O designer vai desenhar a tela, com Photoshop ou algum software do tipo, e a pes
 O mundo do front-end possui diversas tecnologias, frameworks e bibliotecas. E está sempre evoluindo.
 
 # Mobile
+
 ![mobile](./images/mobile.jpeg)
 
 Desenvolvimentos de applicativos.
@@ -30,12 +31,15 @@ O Back End trabalha em boa partes dos casos fazendo a ponte entre os dados que v
 
 Tudo isso pode ser feito com uma série de linguagens diferentes como: Python, PHP, Ruby, Java, Kotlin, Clojure, C#, JavaScript (Node.js) entre diversas outras.
 
+
 # Banco de Dados
+
 ![banco](./images/banco.jpg)
 
 O banco de dados é a organização e armazenagem de informações sobre um domínio específico. De forma mais simples, é o agrupamento de dados que tratam do mesmo assunto, e que precisam ser armazenados para segurança ou conferência futura.
 
 # O fluxo:
+
 ![fluxo](./images/fluxo.png)
 
 
@@ -169,12 +173,18 @@ Na Pull request, você está simplesmente solicitando ao responsável(ou respons
 Na pull request, precisamos escrever o que fizemos.
 Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da sua solicitação e etc.
 
-## Git Merge
 
-Merge acontece quando pegamos duas branchs diferentes e juntamos o código.
-Muitas vezes, existem partes diferentes nesses arquivos, nesse momento
-existe um conflito que deve ser resolvido.
+# Contribuindo num projeto remoto
 
+- clonar repositório (``git clone url-do-projeto``)
+- caso já tenha o projeto na sua máquina, precisamos atualizar a branch master local
+(``git pull origin master``)
+- criar sua branch para trabalhar (``git checkout -b nome-da-sua-branch``)
+- finalizado o trabalho vamos subir nossas mudanças:
+    - ``git add .``
+    - ``git commit -m "o que eu fiz"``
+    - ``git push origin nome-da-sua-branch``
+- agora vamos no github abrir a PR
 
 ## Readme.md MARKDOWN
 
