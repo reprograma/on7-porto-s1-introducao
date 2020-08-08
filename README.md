@@ -203,3 +203,6 @@ onde explicamos o projeto e damos algumas instruções, caso necessário.
 * https://git-scm.com/book/pt-br/v1/Primeiros-passos-Sobre-Controle-de-Vers%C3%A3o -> Documentação oficial do git em português.
 
 * https://rogerdudler.github.io/git-guide/index.pt_BR.html -> git - guia prático
+
+* Como funciona a internet: - https://www.youtube.com/watch?v=AABqPceCwZk
+                            - https://www.alura.com.br/artigos/desmistificando-o-protocolo-http-parte-1
