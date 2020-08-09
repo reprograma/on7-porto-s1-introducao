@@ -1,8 +1,8 @@
 # Exercício da Semana
 
 Crie um novo repositório no seu github com o nome que preferir.
-Crie uma pasta no seu computador e siga
-o passo a passo que o github mostra:
+Crie uma nova pasta no seu computador e
+DENTRO DA PASTA QUE VOCE CRIOU siga o passo a passo que o github mostra:
 
 * `echo "# Meu Exercício" >> README.md`
 * `git init`
