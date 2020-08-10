@@ -35,18 +35,19 @@
   - ``git checkout -b nome-da-sua-branch``
 
 ### Coloque sua pesquisa no arquivo README.md
-      o Readme é arquivo que termina com `.md` ou sejá ele é um arquivo Markdown.
-      Markdown é uma sintaxe usada para padronizar e facilitar formatação de texto na web, utilizada em aplicativos como Slack e GitHub
-      links par ajudar a editar arquivos markdown.
+
+o Readme é arquivo que termina com ``.md`` ou sejá ele é um arquivo Markdown.
+Markdown é uma sintaxe usada para padronizar e facilitar formatação de texto na web, utilizada em aplicativos como Slack e GitHub
+links par ajudar a editar arquivos markdown.
         - https://dillinger.io/
         - https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 ### finalizado o trabalho vamos subir nossas mudanças:
-      - ``git status`` - para checar o arquivo alterado
-      - ``git add .``
-      - ``git status``- para checar que o git add funfou, o arquivo deve ficar verde.
-      - ``git commit -m "o que eu fiz"``
-      - ``git push origin nome-da-sua-branch``
+- ``git status`` - para checar o arquivo alterado
+- ``git add .``
+- ``git status``- para checar que o git add funfou, o arquivo deve ficar verde.
+- ``git commit -m "o que eu fiz"``
+- ``git push origin nome-da-sua-branch``
 
 ### Agora vamos no github abrir a PR:
   - quando você der o primeiro `push` no proprio terminal (git bash) a url da pull request vai aparecer
