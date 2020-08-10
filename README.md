@@ -123,7 +123,7 @@ Então mantenha tudo organizado e use bom senso na hora de escolher seu nome de 
 * Criar novo repositório no seu github e dar nome a ele.
 * no sua máquina, pela linha de comando, vá até a pasta do projeto.
 * dentro da pasta do projeto rode o comando: ````git init```` (pasta git oculta é criada)
-* ````git add .```` para adicionar todos os arquivos que estão na sua pasta de uma vez, caso queria adicionar apenas um digite ````git add caminho-do-arquivo````
+* ````git add .```` para adicionar todos os arquivos que estão na sua pasta de uma vez, caso queria adicionar apenas um digite ````git add nome-do-arquivo````
 * ````git commit -m"mensagem para explicar o que voce fez no código"````
 * ````git remote add origin url-que-voces-copiaram-do-github````
 * ````git remote -v```` mostra as url que o git está apontando
@@ -185,6 +185,14 @@ Cabe ao responsável aceitar, negar, pedir correções, fazer um code review da 
     - ``git commit -m "o que eu fiz"``
     - ``git push origin nome-da-sua-branch``
 - agora vamos no github abrir a PR
+
+# Merge
+
+A 'mesclagem' é o jeito do Git de unificar históricos de galhos diferentes.
+Ou seja, unificar duas branches em uma.
+
+É o que acontece quando mergeamos a __Pull Request__. Estamos pegando a nossa branch, com as alterações que fizemos, e unificando com a branch master.
+
 
 ## Readme.md MARKDOWN
 
