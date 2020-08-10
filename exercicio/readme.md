@@ -14,7 +14,7 @@
  - Depois vamos acessar a pasta com: `cd nome-da-pasta`
 
 ### Agora vamos linkar a nossa pasta com o repositório no github e fazer o primeiro commit e push:
- - No gitbash, estando dentro da nossa nova pasta vamos fazer os comandos abaixo:
+ - No gitbash, estando dentro da nossa nova pasta vamos fazer os comandos abaixo (que vao estar também no seu repositório do github recem criado):
 
 * `echo "# Meu Exercício" >> README.md`
 * `git init`
@@ -37,10 +37,10 @@
 ### Coloque sua pesquisa no arquivo README.md
 
 o Readme é arquivo que termina com ``.md`` ou sejá ele é um arquivo Markdown.
-Markdown é uma sintaxe usada para padronizar e facilitar formatação de texto na web, utilizada em aplicativos como Slack e GitHub
-links par ajudar a editar arquivos markdown.
-        - https://dillinger.io/
-        - https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
+Markdown é uma sintaxe usada para padronizar e facilitar formatação de texto na web, utilizada em aplicativos como Slack e GitHub.
+Links par ajudar a editar arquivos markdown:
+- https://dillinger.io/
+- https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 ### finalizado o trabalho vamos subir nossas mudanças:
 - ``git status`` - para checar o arquivo alterado
