@@ -9,7 +9,7 @@ Crie um novo repositório no seu github com o nome que preferir.
 Crie no seu computador uma pasta com o mesmo nome do repositório:
  - A partir da area de trabalho (Desktop) do seu computador abra o git bash
  - Ao abri-lo certifique-se de que está na pasta correta (Desktop)
- [terminal](terminal.png)
+ ![terminal](terminal.png)
  - agora vamos criar a nossa nova pasta com o comando: `mkdir nome-da-pasta`
  - Depois vamos acessar a pasta com: `cd nome-da-pasta`
  - E estando dentro da nossa nova pasta vamos fazer os comandos abaixo:
