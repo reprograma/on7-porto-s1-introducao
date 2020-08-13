@@ -1,4 +1,4 @@
-# Revião
+# Revisão
 
 ## Fluxo Git
 
@@ -39,9 +39,11 @@ Os comandos do terminal são independentes do git
 * mkdir nome-da-pasta - para criar uma pasta
 * touch nome-do-arquivo - para criar um arquivo
 * rm nome-do-arquivo - para remover um arquivo
+* rm -rf nome-da-pasta - remove pasta e arquivos que estão dentro dela
 * history - mostra histórico de comandos
 
 # Abrindo o git bash
 
+Lembrar de sempre observar em qual pasta está!
 
 css vs markdown
