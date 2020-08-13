@@ -46,4 +46,7 @@ Os comandos do terminal são independentes do git
 
 Lembrar de sempre observar em qual pasta está!
 
-css vs markdown
+
+Dúvidas do Grupo
+* css vs markdown
+* conflito
