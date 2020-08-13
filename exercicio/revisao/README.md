@@ -31,6 +31,7 @@
 Os comandos do terminal são independentes do git
 
 ### Comandos mais usados:
+* Aqui vai ter conflito
 * ls - list (lista todos os arquivos presentes no diretório MAC/LINUX)
 * dir - list(Windows)
 * dir /b - mostra lista de maneira simplificada
