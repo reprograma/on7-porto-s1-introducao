@@ -32,10 +32,7 @@ Os comandos do terminal são independentes do git
 
 ### Comandos mais usados:
 * ls - list (lista todos os arquivos presentes no diretório MAC/LINUX)
-* dir - list(Windows)
-* dir /b - mostra lista de maneira simplificada
 * pwd - Present working directory (MAC/LINUX) - __mostra a pasta que estamos__
-* cd ~ - volta para a raiz
 * cd .. - volta uma pasta
 * cd nome-da-pasta - para entrar em uma pasta
 * code . - abre o visual studio code na pasta local.
@@ -43,4 +40,8 @@ Os comandos do terminal são independentes do git
 * touch nome-do-arquivo - para criar um arquivo
 * rm nome-do-arquivo - para remover um arquivo
 * history - mostra histórico de comandos
-* f7 - history no Windows
+
+# Abrindo o git bash
+
+
+css vs markdown
